@@ -30,6 +30,7 @@ export const useAuth = () => {
     setUserId(null);
     localStorage.removeItem("token");
     localStorage.removeItem("userData");
+    localStorage.removeItem("wellcomeAlert");
   }, []);
 
   useEffect(() => {

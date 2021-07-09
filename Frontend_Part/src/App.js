@@ -30,6 +30,7 @@ const Auth = React.lazy(() => import("./user/pages/Auth"));
 
 const App = () => {
   const { token, login, logout, userId } = useAuth();
+  localStorage.setItem("wellcomeAlert", true);
   let routes;
 
   if (token) {
