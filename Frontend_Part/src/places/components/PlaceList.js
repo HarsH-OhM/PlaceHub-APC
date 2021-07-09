@@ -11,6 +11,10 @@ const PlaceList = (props) => {
         <Card>
           <h2>No places found. Maybe create one?</h2>
           <Button to="/places/new">Share Place</Button>
+          <h3>
+            If you are not logged in from you account then Please Login first
+            and then add your places.
+          </h3>
         </Card>
       </div>
     );

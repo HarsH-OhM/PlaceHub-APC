@@ -52,3 +52,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* //added */
+.downTimeAlertBox {
+  top: 30;
+  position: absolute;
+  width: 80vw;
+}
